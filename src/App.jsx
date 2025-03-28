@@ -1,4 +1,4 @@
-import React ,{useState } from "react";
+import React   from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import { examples } from "./data/examples";
 import ExamplePage from "./pages/ExamplePage";
@@ -12,7 +12,6 @@ const components = {
 };
 
 const App = () => {
-  // const [selectedExample, setSelectedExample] = useState(null);
 
   return (
     <Router>
@@ -25,26 +24,7 @@ const App = () => {
             </li>
           ))}
         </ul>
-          {/* <p> Second Way</p>
-        <ul>
-        {examples.map((example) => (
-          <li key={example.id}>
-            <button onClick={() => setSelectedExample(example)}>
-              {example.title}
-            </button>
-          </li>
-        ))}
-      </ul> */}
-
-      {/* <p> Second Way</p>
-
-        {selectedExample && (
-        <div>
-          <h2>{selectedExample.title}</h2>
-          <p>{selectedExample.description}</p>
-          {React.createElement(components[selectedExample.component])}
-        </div>
-      )} */}
+         
         <Routes>
           <Route path="/example/:id" element={<ExamplePage />} />
         </Routes>
