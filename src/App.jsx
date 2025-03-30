@@ -20,13 +20,13 @@ const App = () => {
         <ul>
           {examples.map((example) => (
             <li key={example.id}>
-              <Link to={`/example/${example.id}`}>{example.title}</Link>
+              <Link to={`/example/${example.id}/${example.title}`}>{example.title}</Link>
             </li>
           ))}
         </ul>
          
         <Routes>
-          <Route path="/example/:id" element={<ExamplePage />} />
+          <Route path="/example/:id/:title" element={<ExamplePage />} />
         </Routes>
       </div>
     </Router>
