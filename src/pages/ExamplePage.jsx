@@ -7,6 +7,7 @@ import FetchExample from "../examples/FetchExample";
 import CounterFn from "../examples/CounterFn";
 import CounterClass from "../examples/CounterClass";
 import SampleFuncationalComponent from "../examples/SampleFuncationalComponent";
+import PlusMinus from "../examples/PlusMinus";
 
 
 const components = {
@@ -15,7 +16,8 @@ const components = {
   CounterExampleTwo ,
   CounterClass,
   CounterFn,
-  SampleFuncationalComponent
+  SampleFuncationalComponent,
+  PlusMinus
 };
 
 const ExamplePage = () => {

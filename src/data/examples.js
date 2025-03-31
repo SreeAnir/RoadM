@@ -35,4 +35,10 @@ export const examples = [
     description: "Counter Class.",
     component: "CounterFn",
   },
+  {
+    id: 7,
+    title: "Plus Minus",
+    description: "Plus+ and Minus- with maxinum 4 and minimum 0.",
+    component: "PlusMinus",
+  },
 ];
