@@ -8,6 +8,7 @@ import CounterFn from "../examples/CounterFn";
 import CounterClass from "../examples/CounterClass";
 import SampleFuncationalComponent from "../examples/SampleFuncationalComponent";
 import PlusMinus from "../examples/PlusMinus";
+import PropsExample from "../examples/PropsExample";
 
 
 const components = {
@@ -17,7 +18,8 @@ const components = {
   CounterClass,
   CounterFn,
   SampleFuncationalComponent,
-  PlusMinus
+  PlusMinus,
+  PropsExample
 };
 
 const ExamplePage = () => {
@@ -30,7 +32,6 @@ const ExamplePage = () => {
 
   return (
     <div>
-      <h1>Passed  {title}</h1>
       <h1>{example.title}</h1>
       <p>{example.description}</p>
       <Component />

@@ -41,4 +41,10 @@ export const examples = [
     description: "Plus+ and Minus- with maxinum 4 and minimum 0.",
     component: "PlusMinus",
   },
+  {
+    id: 8,
+    title: "Simple Passing Props (Parent to Child)",
+    description: "Challenge: Pass a name from the parent component to a child component.",
+    component: "PropsExample",
+  },
 ];
