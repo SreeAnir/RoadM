@@ -47,4 +47,17 @@ export const examples = [
     description: "Challenge: Pass a name from the parent component to a child component.",
     component: "PropsExample",
   },
+  {
+    id: 9,
+    title: "Props with state",
+    description: "Challenge: Create an input field that updates state on every change..",
+    component: "InputField",
+  },
+  {
+    id: 10,
+    title: "Props with statePassing Callback Functions as Props",
+    description: "Challenge: Update the parent’s state from a child component.",
+    component: "PropCallback",
+  },
+  
 ];

@@ -9,6 +9,8 @@ import CounterClass from "../examples/CounterClass";
 import SampleFuncationalComponent from "../examples/SampleFuncationalComponent";
 import PlusMinus from "../examples/PlusMinus";
 import PropsExample from "../examples/PropsExample";
+import InputField from "../examples/InputField";
+import PropCallback from "../examples/PropCallback";
 
 
 const components = {
@@ -19,7 +21,9 @@ const components = {
   CounterFn,
   SampleFuncationalComponent,
   PlusMinus,
-  PropsExample
+  PropsExample,
+  InputField,
+  PropCallback
 };
 
 const ExamplePage = () => {
