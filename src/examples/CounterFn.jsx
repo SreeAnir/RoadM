@@ -1,16 +1,17 @@
-import React,{ useState} from "react";
+import React, { useState } from "react";
 
 const CounterFn = () => {
-  const [count,setCount] = useState(0);
-    const handleclick = () => {
-       setCount(count+1) ;
-    }
-return (
-  <>
-    <button onClick={handleclick}>Click{count}</button>
-    
+  const [count, setCount] = useState(0);
+
+  const handleClick = () => {
+    setCount((prevCount) => prevCount + 1); // Using functional setState
+  };
+
+  return (
+    <>
+      <button onClick={handleClick}>Click {count}</button>
     </>
-)
-}
+  );
+};
 
 export default CounterFn;
