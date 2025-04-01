@@ -59,5 +59,11 @@ export const examples = [
     description: "Challenge: Update the parent’s state from a child component.",
     component: "PropCallback",
   },
+  {
+    id: 11,
+    title: "Derived State (Compute from Props)",
+    description: "Challenge: Show double the number received as a prop.",
+    component: "DisplayDouble",
+  },
   
 ];

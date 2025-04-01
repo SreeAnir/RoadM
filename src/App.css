@@ -17,7 +17,25 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.tbactive {
+  color: rgb(57, 102, 104);
+  cursor: pointer;
+  font-weight: bold;
+}
 
+.tbinactive {
+  color: rgb(124, 209, 124);
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.listitems{
+  padding: 10px;
+}
+.listitems li{
+  list-style: none;
+  text-align: left;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,6 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { examples } from "../data/examples";
+import { examplestwo } from "../data/examplestwo";
+
+
 import CounterExample from "../examples/CounterExample";
 import CounterExampleTwo from "../examples/CounterExampleTwo";
 import FetchExample from "../examples/FetchExample";
@@ -11,6 +14,8 @@ import PlusMinus from "../examples/PlusMinus";
 import PropsExample from "../examples/PropsExample";
 import InputField from "../examples/InputField";
 import PropCallback from "../examples/PropCallback";
+import DisplayDouble from "../examples/DisplayDouble";
+
 
 
 const components = {
@@ -23,7 +28,8 @@ const components = {
   PlusMinus,
   PropsExample,
   InputField,
-  PropCallback
+  PropCallback,
+  DisplayDouble
 };
 
 const ExamplePage = () => {
