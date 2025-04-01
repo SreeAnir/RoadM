@@ -16,5 +16,12 @@ export const examplestwo = [
     title :"Example 3: Using switch-case for Multiple Conditions",
     description: "👉 Display user role (Admin, Moderator, Guest).",
     component: "UserRole",
-  }
+  },
+  {
+    id : 103 ,
+    title :"Example 4: Conditional Rendering Based on API Data",
+    description: "👉 Show 'Loading...' until data is fetched.",
+    component: "DataFetcher",
+  },
+  
 ];

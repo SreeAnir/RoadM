@@ -4,11 +4,14 @@ import { examplestwo } from "../data/examplestwo";
 import AuthButton from "../examples/part2/AuthButton";
 import AdminMessage from "../examples/part2/AdminMessage";
 import UserRole from "../examples/part2/UserRole";
+import DataFetcher from "../examples/part2/DataFetcher";
+
 
 const components = {
   AuthButton,
   AdminMessage,
-  UserRole
+  UserRole,
+  DataFetcher
 };
 
 const ExamplePageTwo = () => {
