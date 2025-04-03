@@ -11,16 +11,16 @@ export const examplesthree = [
     description: "👉 Rendering a List of Components.",
     component: "ProductList",
   },
-  // {
-  //   id : 202 ,
-  //   title :"Example 3: Using switch-case for Multiple Conditions",
-  //   description: "👉 Display user role (Admin, Moderator, Guest).",
-  //   component: "UserRole",
-  // },
-  // {
-  //   id : 203 ,
-  //   title :"Example 4: Conditional Rendering Based on API Data",
-  //   description: "👉 Show 'Loading...' until data is fetched.",
-  //   component: "DataFetcher",
-  // },
+  {
+    id : 202 ,
+    title :"Example 3: Basic Form with Required Validation",
+    description: "👉 Validation .",
+    component: "SimpleForm",
+  },
+  {
+    id : 203 ,
+    title :"Example 4: Form with Multiple Fields & Validation",
+    description: "Form validation.",
+    component: "FormValidation",
+  },
 ];

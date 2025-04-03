@@ -3,11 +3,14 @@ import { useParams } from "react-router-dom";
 import { examplesthree } from "../data/examplesthree" ;
 import UsersList from "../examples/part3/UsersList";
 import ProductList from "../examples/part3/ProductList";
-
+import SimpleForm from "../examples/part3/SimpleForm";
+import FormValidation from "../examples/part3/FormValidation";
 
 const components = {
   UsersList,
-  ProductList
+  ProductList,
+  SimpleForm,
+  FormValidation
 };
 
 const ExamplePageThree = () => {
