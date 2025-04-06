@@ -65,5 +65,17 @@ export const examples = [
     description: "Challenge: Show double the number received as a prop.",
     component: "DisplayDouble",
   },
+  {
+    id: 12,
+    title: "useReducer Example – Counter with Reducer",
+    description: "...",
+    component: "UseReducerCounter",
+  },
+  {
+    id: 13,
+    title: "useContext",
+    description: "...",
+    component: "ThemedComponent",
+  },
   
 ];

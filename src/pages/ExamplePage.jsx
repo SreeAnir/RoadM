@@ -15,7 +15,8 @@ import PropsExample from "../examples/PropsExample";
 import InputField from "../examples/InputField";
 import PropCallback from "../examples/PropCallback";
 import DisplayDouble from "../examples/DisplayDouble";
-
+import UseReducerCounter from "../examples/UseReducerCounter";
+import ThemedComponent from "../examples/ThemedComponent";
 
 
 const components = {
@@ -29,7 +30,9 @@ const components = {
   PropsExample,
   InputField,
   PropCallback,
-  DisplayDouble
+  DisplayDouble,
+  UseReducerCounter,
+  ThemedComponent
 };
 
 const ExamplePage = () => {
