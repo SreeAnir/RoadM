@@ -29,4 +29,18 @@ export const examplesthree = [
     description: "LiveValidationForm .",
     component: "LiveValidationForm ",
   },
+  {
+    id : 205 ,
+    title :"Example 6: React Example: User List with Filters and Validation",
+    description: "UserListFilter .",
+    component: "UserListFilter"
+  },
+  {
+    id : 206 ,
+    title :"Example 7: React Example: User List with Filters and Checkbox",
+    description: "UserListWithToggle .",
+    component: "UserListWithToggle"
+  },
+  
+  
 ];
