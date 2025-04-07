@@ -41,6 +41,12 @@ export const examplesthree = [
     description: "UserListWithToggle .",
     component: "UserListWithToggle"
   },
+  {
+    id : 207 ,
+    title :"Example 7:Controlled vs Uncontrolled Form ",
+    description: "Controlled Form (with useState) ,  Uncontrolled Form (with useRef), Reading values from both  ,Simple validation ",
+    component: "FormExample"
+  },
   
   
 ];

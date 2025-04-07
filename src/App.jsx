@@ -7,13 +7,14 @@ import ExamplePage from "./pages/ExamplePage";
 import ExamplePageTwo from "./pages/ExamplePageTwo";
 import ExamplePageThree from "./pages/ExamplePageThree";
 
-
+import AppProvider from "./AppProvider";
 import "./App.css"; // Import CSS for styling
 
 const App = () => {
   const [activePart, setActivePart] = useState("part1"); // "part1" or "part2"
 
   return (
+    <AppProvider>
     <Router>
       <div style={{ padding: "20px", fontSize: "13px", fontWeight: "light" }}>
         <h1><a href="/"> Home</a></h1>
@@ -79,6 +80,7 @@ const App = () => {
         </Routes>
       </div>
     </Router>
+    </AppProvider>
   );
 };
 
