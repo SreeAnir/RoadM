@@ -33,6 +33,14 @@ const MemoizedListExample = () => {
           <ListItem key={item.id} item={item} onClick={handleClick} />
         ))}
       </ul>
+      <p>🧠 Why Do This?
+        It keeps your logic centralized in the parent.
+      </p>
+      <p>
+        Allows children to be reusable components.</p>
+      <p>
+
+        Encourages unidirectional data flow, a React best practice.</p>
     </div>
   );
 };
