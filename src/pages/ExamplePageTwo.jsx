@@ -5,13 +5,15 @@ import AuthButton from "../examples/part2/AuthButton";
 import AdminMessage from "../examples/part2/AdminMessage";
 import UserRole from "../examples/part2/UserRole";
 import DataFetcher from "../examples/part2/DataFetcher";
+import ListRemoveExample from "../examples/part2/ListRemoveExample";
 
 
 const components = {
   AuthButton,
   AdminMessage,
   UserRole,
-  DataFetcher
+  DataFetcher,
+  ListRemoveExample,
 };
 
 const ExamplePageTwo = () => {

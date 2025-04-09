@@ -24,4 +24,11 @@ export const examplestwo = [
     component: "DataFetcher",
   },
   
+  {
+    id : 104 ,
+    title :"Example 5: Remove item from list (filter)",
+    description: "👉 setItems((prevItems) => prevItems.filter((item) => item.id !== id)).",
+    component: "ListRemoveExample",
+  },
+  
 ];

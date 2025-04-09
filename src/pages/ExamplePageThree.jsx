@@ -7,6 +7,8 @@ import SimpleForm from "../examples/part3/SimpleForm";
 import FormValidation from "../examples/part3/FormValidation";
 import UserListFilter from "../examples/part3/UserListFilter";
 import UserListWithToggle from "../examples/part3/UserListWithToggle";
+import MemoExample from "../examples/part3/MemoExample";
+import MemoizedListExample from "../examples/part3/MemoizedListExample";
 
 const components = {
   UsersList,
@@ -14,7 +16,9 @@ const components = {
   SimpleForm,
   FormValidation,
   UserListFilter,
-  UserListWithToggle
+  UserListWithToggle,
+  MemoExample,
+  MemoizedListExample
 };
 
 const ExamplePageThree = () => {

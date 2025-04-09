@@ -47,6 +47,19 @@ export const examplesthree = [
     description: "Controlled Form (with useState) ,  Uncontrolled Form (with useRef), Reading values from both  ,Simple validation ",
     component: "FormExample"
   },
+  {
+    id : 208 ,
+    title :"Example 8: Example: useMemo + useCallback in Action",
+    description: "✅ MemoExample ,memoizes expensive computed values ,✅ useCallback — memoizes callback functions to prevent re-renders",
+    component: "MemoExample"
+  },
+  {
+    id : 209 ,
+    title :"Example 9:  Memoized List Item Component",
+    description: "You have a list of items and a click handler. Only the clicked item should re-render, not the entire list.",
+    component: "MemoizedListExample"
+  },
+  
   
   
 ];
