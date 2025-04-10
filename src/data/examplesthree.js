@@ -59,6 +59,12 @@ export const examplesthree = [
     description: "You have a list of items and a click handler. Only the clicked item should re-render, not the entire list.",
     component: "MemoizedListExample"
   },
+  {
+    id : 210 ,
+    title :"Example 9:  useCallback in action",
+    description: "You have a list of items and a click handler. Only the clicked item should re-render, not the entire list.",
+    component: "UseCallStackParent"
+  },
   
   
   

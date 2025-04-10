@@ -9,6 +9,7 @@ import UserListFilter from "../examples/part3/UserListFilter";
 import UserListWithToggle from "../examples/part3/UserListWithToggle";
 import MemoExample from "../examples/part3/MemoExample";
 import MemoizedListExample from "../examples/part3/MemoizedListExample";
+import UseCallStackParent from "../examples/part3/UseCallStackParent";
 
 const components = {
   UsersList,
@@ -18,7 +19,8 @@ const components = {
   UserListFilter,
   UserListWithToggle,
   MemoExample,
-  MemoizedListExample
+  MemoizedListExample,
+  UseCallStackParent
 };
 
 const ExamplePageThree = () => {
