@@ -65,6 +65,12 @@ export const examplesthree = [
     description: "You have a list of items and a click handler. Only the clicked item should re-render, not the entire list.",
     component: "UseCallStackParent"
   },
+  {
+    id : 211 ,
+    title :"Example 10: Expensive Calculation on Each List Item",
+    description: "Render a list of 100 items.Each item calculates a fake 'heavy' value",
+    component: "WithUseMemo"
+  },
   
   
   

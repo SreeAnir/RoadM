@@ -10,6 +10,7 @@ import UserListWithToggle from "../examples/part3/UserListWithToggle";
 import MemoExample from "../examples/part3/MemoExample";
 import MemoizedListExample from "../examples/part3/MemoizedListExample";
 import UseCallStackParent from "../examples/part3/UseCallStackParent";
+import WithUseMemo from "../examples/part3/WithUseMemo";
 
 const components = {
   UsersList,
@@ -20,7 +21,8 @@ const components = {
   UserListWithToggle,
   MemoExample,
   MemoizedListExample,
-  UseCallStackParent
+  UseCallStackParent ,
+  WithUseMemo 
 };
 
 const ExamplePageThree = () => {
