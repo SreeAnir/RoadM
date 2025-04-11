@@ -3,9 +3,13 @@ import { useParams } from "react-router-dom";
 import { reactquerdata } from "../data/reactquerdata";
 
 import RQExample from "../examples/reactquery/RQExample";
+import RQExampleImport from "../examples/reactquery/RQExampleImport";
+import RQPaginatedPosts from "../examples/reactquery/RQPaginatedPosts";
 
 const components = {
   RQExample,
+  RQExampleImport,
+  RQPaginatedPosts
 };
 
 const ReactQueryPerformance = () => {
