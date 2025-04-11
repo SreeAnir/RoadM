@@ -1,39 +1,32 @@
-import React, { useState } from "react";
+// RQExample.jsx
+import React from "react";
+import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
+
+const fetchPosts = async () => {
+  const response = await axios.get("https://jsonplaceholder.typicode.com/posts");
+  return response.data;
+};
 
 const RQExample = () => {
-  const [count, setCount] = useState(0);
+  const { data, isLoading, isError, error } = useQuery({
+    queryKey: ["posts"],
+    queryFn: fetchPosts,
+  });
 
-  const handleClick = (operation) => {
-    setCount((prevCount) => {
-      if (operation === "increment" && prevCount < 4) {
-        return prevCount + 1;
-      } else if (operation === "decrement" && prevCount > 0) {
-        return prevCount - 1;
-      }
-      return prevCount; // Prevents count from exceeding limits
-    });
-  };
-  
+  if (isLoading) return <p>Loading...</p>;
+  if (isError) return <p>Error: {error.message}</p>;
 
   return (
-    <div style={{ background: "brown", padding: "10px", color: "white" }}>
-      <h3>Value: {count}</h3>
-
-      <div
-        style={{
-          border: "1px solid red",
-          fontSize: "10px",
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-          gap: "5px",
-          padding: "5px",
-        }}
-      >
-        <button onClick={() => handleClick("increment")}>+</button>
-        <button>OR</button>
-        <button onClick={() => handleClick("decrement")}>-</button>
-      </div>
+    <div>
+      <h4>Posts List (React Query)</h4>
+      <ul>
+        {data.slice(0, 5).map((post) => (
+          <li key={post.id}>
+            <strong>{post.title}</strong>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
