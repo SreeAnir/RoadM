@@ -17,4 +17,11 @@ export const reactquerdata = [
     description: "",
     component: "RQPaginatedPosts"
   },
+  {
+    id : 503 ,
+    title :"React Query exampl pagination with some of those bonus ideas. Here's an extended version of the paginated posts.",
+    description: "",
+    component: "RQPaginatedPostsWithButtons"
+  },
+  
 ];

@@ -5,11 +5,13 @@ import { reactquerdata } from "../data/reactquerdata";
 import RQExample from "../examples/reactquery/RQExample";
 import RQExampleImport from "../examples/reactquery/RQExampleImport";
 import RQPaginatedPosts from "../examples/reactquery/RQPaginatedPosts";
+import RQPaginatedPostsWithButtons from "../examples/reactquery/RQPaginatedPostsWithButtons";
 
 const components = {
   RQExample,
   RQExampleImport,
-  RQPaginatedPosts
+  RQPaginatedPosts,
+  RQPaginatedPostsWithButtons
 };
 
 const ReactQueryPerformance = () => {
