@@ -20,10 +20,10 @@ const App = () => {
   const [activePart, setActivePart] = useState("part1");
 
   const tabs = [
-    { key: "part1", label: "Part 1", data: examples, path: "example", component: ExamplePage },
-    { key: "part2", label: "Part 2", data: examplestwo, path: "examplestwo", component: ExamplePageTwo },
-    { key: "part3", label: "Part 3", data: examplesthree, path: "examplesthree", component: ExamplePageThree },
-    { key: "performance", label: "Performance", data: experformance, path: "experformance", component: ExPagePerformance },
+    { key: "part1", label: "Basic Examples", data: examples, path: "example", component: ExamplePage },
+    { key: "part2", label: "Props drilling", data: examplestwo, path: "examplestwo", component: ExamplePageTwo },
+    { key: "part3", label: "List & Form", data: examplesthree, path: "examplesthree", component: ExamplePageThree },
+    { key: "performance", label: "Performance Optimization", data: experformance, path: "experformance", component: ExPagePerformance },
     { key: "react-query", label: "React Query/TanStack Query", data: reactquerdata, path: "experformance", component: ReactQueryPerformance }
   ];
 
@@ -33,20 +33,21 @@ const App = () => {
     <AppProvider>
       <Router>
         <div style={{ padding: "20px", fontSize: "13px", fontWeight: "light" }}>
-          <h1><a href="/">Home</a></h1>
-          <h1>React Code Examples</h1>
+          <h3><a href="/">Home</a> {'>>'} <></><label>React Code Examples</label></h3>
 
           {/* Tab Menu */}
-          <div style={{ padding: "20px", display: "flex", gap: "10px" }}>
+          <div  className="tablist">
+          <ul style={{   display: "flex", gap: "10px" }} className="listitems-tab">
             {tabs.map(tab => (
-              <h2
+              <li 
                 key={tab.key}
-                className={activePart === tab.key ? "tbactive" : "tbinactive"}
+                className={activePart === tab.key ? "tbactive" : "tbinactive"}  
                 onClick={() => setActivePart(tab.key)}
               >
                 {tab.label}
-              </h2>
+              </li>
             ))}
+            </ul>
           </div>
 
           {/* Active Example List */}
