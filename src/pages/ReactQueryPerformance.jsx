@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { reactquerdata } from "../data/reactquerdata";
 
 import RQExample from "../examples/reactquery/RQExample";
- 
 
 const components = {
   RQExample,
@@ -19,7 +18,7 @@ const ReactQueryPerformance = () => {
 
   return (
     <div>
-      <h1>{example.title}</h1>
+       <label className="example_title">{example.title}</label>
       <p>{example.description}</p>
       <Component />
     </div>
