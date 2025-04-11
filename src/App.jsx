@@ -24,7 +24,7 @@ const App = () => {
     { key: "part2", label: "Props drilling", data: examplestwo, path: "examplestwo", component: ExamplePageTwo },
     { key: "part3", label: "List & Form", data: examplesthree, path: "examplesthree", component: ExamplePageThree },
     { key: "performance", label: "Performance Optimization", data: experformance, path: "experformance", component: ExPagePerformance },
-    { key: "react-query", label: "React Query/TanStack Query", data: reactquerdata, path: "experformance", component: ReactQueryPerformance }
+    { key: "react-query", label: "React Query/TanStack Query", data: reactquerdata, path: "react-query", component: ReactQueryPerformance }
   ];
 
   const activeTab = tabs.find(tab => tab.key === activePart);

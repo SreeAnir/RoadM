@@ -12,7 +12,7 @@ const ReactQueryPerformance = () => {
   const { id ,title } = useParams();
   const example = reactquerdata.find((ex) => ex.id === parseInt(id));
 
-  if (!example) return <h2>Example Not Found</h2>;
+  if (!example) return <h2>Example Not Found!</h2>;
 
   const Component = components[example.component];
 
