@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { examples } from "../data/examples";
-import { examplestwo } from "../data/examplestwo";
 
 
 import CounterExample from "../examples/CounterExample";
@@ -45,7 +44,7 @@ const ExamplePage = () => {
 
   return (
     <div>
-      <h1>{example.title}</h1>
+      <label className="example_title">{example.title}</label>
       <p>{example.description}</p>
       <Component />
     </div>

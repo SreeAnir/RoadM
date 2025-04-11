@@ -29,7 +29,7 @@ const ExamplePageThree = () => {
 
   return (
     <div>
-      <h1>📌{example.title}</h1>
+       <label className="example_title">{example.title}</label>
       <p>{example.description}</p>
       <Component />
     </div>
